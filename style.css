@@ -1,18 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 body {
-    background-color: #161923; /* Тёмно-синий фон */
+    background-color: #161923;
     color: #bcbdd0;
     font-family: 'Montserrat', sans-serif;
     word-wrap: break-word;
     line-height: 1.6;
 }
 
+a {
+    color: white;
+}
+
 .container {
-    width: 45%; /* Устанавливает ширину контейнера в 80% от ширины родительского элемента */
-    max-width: 1200px; /* Устанавливает максимальную ширину контейнера */
-    margin: 0 auto; /* Центрирует контейнер */
-    padding: 20px; /* Добавляет внутренние отступы */
+    width: 45%; 
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 h3 {
@@ -25,14 +29,14 @@ p {
 
 pre.code {
     width: 100%;
-    background-color: #1d1f21; /* Тёмный фон */
-    padding: 10px; /* Внутренние отступы */
-    font-family: 'Courier New', Courier, monospace; /* Моноширинный шрифт */
-    white-space: pre-wrap; /* Перенос строк */
-    display: inline-block; /* Подгоняет рамку под ширину текста */
+    background-color: #1d1f21;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    white-space: pre-wrap;
+    display: inline-block;
   }
   
   pre.code code {
-    background: none; /* Убираем фон для тега <code> внутри <pre> */
-    color: inherit; /* Наследуем цвет текста */
+    background: none;
+    color: inherit;
   }
